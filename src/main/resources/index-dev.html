@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maze Runner</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body style="margin: 0px">
+<button id="click-me-button" type="button"
+   onclick="mazeRunner.wallRunnerApp().boomShasta()">Click me!</button>
+
+<div id="playground">
+    <canvas id="canvas" style="display: block"/>
+</div>
+
+<script type="text/javascript" src="../../../target/scala-2.12/mazerunner-fastopt.js"></script>
+
+<script>
+  mazeRunner.wallRunnerApp().main();
+</script>
+</body>
+</html>
